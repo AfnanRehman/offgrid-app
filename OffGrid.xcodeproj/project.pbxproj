@@ -14,6 +14,17 @@
 		671863E82C7ECE7F0092A308 /* OffGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671863E72C7ECE7F0092A308 /* OffGridTests.swift */; };
 		671863F22C7ECE7F0092A308 /* OffGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671863F12C7ECE7F0092A308 /* OffGridUITests.swift */; };
 		671863F42C7ECE7F0092A308 /* OffGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671863F32C7ECE7F0092A308 /* OffGridUITestsLaunchTests.swift */; };
+		67B8E13F2C9522BA00099C51 /* MultipeerConnectivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E13E2C9522BA00099C51 /* MultipeerConnectivityService.swift */; };
+		67B8E1412C9522DB00099C51 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E1402C9522DB00099C51 /* Message.swift */; };
+		67B8E1432C95232300099C51 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E1422C95232300099C51 /* ChatView.swift */; };
+		67B8E1452C95235200099C51 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E1442C95235200099C51 /* ChatViewModel.swift */; };
+		67B8E1482C9523C300099C51 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E1472C9523C300099C51 /* MessageRow.swift */; };
+		67B8E14A2C9523CC00099C51 /* InputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E1492C9523CC00099C51 /* InputBar.swift */; };
+		67B8E14C2C952C4800099C51 /* PeerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E14B2C952C4800099C51 /* PeerSelectionView.swift */; };
+		67B8E14E2C952D5A00099C51 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E14D2C952D5A00099C51 /* InvitationView.swift */; };
+		67B8E1502C952F4400099C51 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8E14F2C952F4400099C51 /* AuthenticationView.swift */; };
+		67DB963E2C87EA5A00D4455B /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DB963D2C87EA5A00D4455B /* MultipeerConnectivity.framework */; };
+		67DB96402C87EAC900D4455B /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB963F2C87EAC900D4455B /* MultipeerSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		671863ED2C7ECE7F0092A308 /* OffGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OffGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		671863F12C7ECE7F0092A308 /* OffGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGridUITests.swift; sourceTree = "<group>"; };
 		671863F32C7ECE7F0092A308 /* OffGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67B8E13E2C9522BA00099C51 /* MultipeerConnectivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityService.swift; sourceTree = "<group>"; };
+		67B8E1402C9522DB00099C51 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		67B8E1422C95232300099C51 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		67B8E1442C95235200099C51 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		67B8E1472C9523C300099C51 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		67B8E1492C9523CC00099C51 /* InputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBar.swift; sourceTree = "<group>"; };
+		67B8E14B2C952C4800099C51 /* PeerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSelectionView.swift; sourceTree = "<group>"; };
+		67B8E14D2C952D5A00099C51 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		67B8E14F2C952F4400099C51 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		67DB963D2C87EA5A00D4455B /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		67DB963F2C87EAC900D4455B /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		67DB96412C8810D700D4455B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "OffGrid/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DB963E2C87EA5A00D4455B /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,7 @@
 				671863E62C7ECE7F0092A308 /* OffGridTests */,
 				671863F02C7ECE7F0092A308 /* OffGridUITests */,
 				671863D42C7ECE7E0092A308 /* Products */,
+				67DB963C2C87EA5A00D4455B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +119,13 @@
 		671863D52C7ECE7E0092A308 /* OffGrid */ = {
 			isa = PBXGroup;
 			children = (
-				671863D62C7ECE7E0092A308 /* OffGridApp.swift */,
-				671863D82C7ECE7E0092A308 /* ContentView.swift */,
-				671863DA2C7ECE7F0092A308 /* Assets.xcassets */,
+				67B8E13D2C9522A600099C51 /* Services */,
+				67B8E1362C951CEC00099C51 /* App */,
+				67B8E1382C951D1F00099C51 /* Views */,
+				67B8E1372C951D0600099C51 /* Models */,
+				67B8E13B2C951DE200099C51 /* ModelViews */,
+				67B8E13A2C951DB000099C51 /* Resources */,
+				67B8E1392C951D8E00099C51 /* Supporting Files */,
 				671863DC2C7ECE7F0092A308 /* Preview Content */,
 			);
 			path = OffGrid;
@@ -125,6 +154,85 @@
 				671863F32C7ECE7F0092A308 /* OffGridUITestsLaunchTests.swift */,
 			);
 			path = OffGridUITests;
+			sourceTree = "<group>";
+		};
+		67B8E1362C951CEC00099C51 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				671863D62C7ECE7E0092A308 /* OffGridApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		67B8E1372C951D0600099C51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67B8E1402C9522DB00099C51 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67B8E1382C951D1F00099C51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67B8E1462C95239800099C51 /* Components */,
+				671863D82C7ECE7E0092A308 /* ContentView.swift */,
+				67B8E1422C95232300099C51 /* ChatView.swift */,
+				67B8E14B2C952C4800099C51 /* PeerSelectionView.swift */,
+				67B8E14D2C952D5A00099C51 /* InvitationView.swift */,
+				67B8E14F2C952F4400099C51 /* AuthenticationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67B8E1392C951D8E00099C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67DB96412C8810D700D4455B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B8E13A2C951DB000099C51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				671863DA2C7ECE7F0092A308 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67B8E13B2C951DE200099C51 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				67DB963F2C87EAC900D4455B /* MultipeerSession.swift */,
+				67B8E1442C95235200099C51 /* ChatViewModel.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		67B8E13D2C9522A600099C51 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				67B8E13E2C9522BA00099C51 /* MultipeerConnectivityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		67B8E1462C95239800099C51 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				67B8E1472C9523C300099C51 /* MessageRow.swift */,
+				67B8E1492C9523CC00099C51 /* InputBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		67DB963C2C87EA5A00D4455B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67DB963D2C87EA5A00D4455B /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +365,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B8E14E2C952D5A00099C51 /* InvitationView.swift in Sources */,
+				67B8E13F2C9522BA00099C51 /* MultipeerConnectivityService.swift in Sources */,
+				67B8E1502C952F4400099C51 /* AuthenticationView.swift in Sources */,
+				67B8E1452C95235200099C51 /* ChatViewModel.swift in Sources */,
+				67DB96402C87EAC900D4455B /* MultipeerSession.swift in Sources */,
+				67B8E1412C9522DB00099C51 /* Message.swift in Sources */,
 				671863D92C7ECE7E0092A308 /* ContentView.swift in Sources */,
+				67B8E14C2C952C4800099C51 /* PeerSelectionView.swift in Sources */,
+				67B8E1482C9523C300099C51 /* MessageRow.swift in Sources */,
+				67B8E1432C95232300099C51 /* ChatView.swift in Sources */,
 				671863D72C7ECE7E0092A308 /* OffGridApp.swift in Sources */,
+				67B8E14A2C9523CC00099C51 /* InputBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +540,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OffGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = A2D44NNXCF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OffGrid/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app requires access to nearby devices to enable peer-to-peer communication.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +571,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OffGrid/Preview Content\"";
+				DEVELOPMENT_TEAM = A2D44NNXCF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OffGrid/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app requires access to nearby devices to enable peer-to-peer communication.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

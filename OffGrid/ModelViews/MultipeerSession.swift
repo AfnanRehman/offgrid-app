@@ -30,7 +30,7 @@ class MultipeerSession: NSObject, MCSessionDelegate, MCNearbyServiceAdvertiserDe
         session = MCSession(peer: peerID, securityIdentity: nil, encryptionPreference: .required)
         session.delegate = self
         
-        let serviceType = "airplanechat1"  // Compliant service type string
+        let serviceType = "airplanechat"  // Compliant service type string
         
         // Start advertising and browsing for nearby peers
         advertiser = MCNearbyServiceAdvertiser(peer: peerID, discoveryInfo: nil, serviceType: serviceType)

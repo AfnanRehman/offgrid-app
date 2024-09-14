@@ -1,20 +1,22 @@
 //
-//  MessageBar.swift
+//  MessageRow.swift
 //  OffGrid
 //
 //  Created by Afnan Rehman on 9/13/24.
 //
 
-import Foundation
-// MessageRow.swift
 import SwiftUI
 
 struct MessageRow: View {
     let message: Message
 
+    var isCurrentUser: Bool {
+        message.sender == UIDevice.current.name
+    }
+
     var body: some View {
         HStack {
-            if message.sender == UIDevice.current.name {
+            if isCurrentUser {
                 Spacer()
                 Text(message.content)
                     .padding(10)

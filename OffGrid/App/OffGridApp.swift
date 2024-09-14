@@ -11,7 +11,9 @@ import SwiftUI
 struct OffGridApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ChatView(viewModel: ChatViewModel())
+            }
         }
     }
 }
